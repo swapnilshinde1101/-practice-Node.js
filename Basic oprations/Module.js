@@ -35,3 +35,17 @@ const PORT = 3000;
 server.listen(PORT, () => {
     console.log(`Server running at http://localhost:${PORT}/`);
 });
+
+
+
+//2.URL
+// const myUrl = newURL('https://example.com:8000/path/name?query=test#hash');
+// console.log('Href:',myUrl.href);
+// console.log('Protocol:',myUrl.protocol);
+// console.log('Host:',myUrl.host);
+// console.log('Hostname:',myUrl.hostname);
+// console.log('Port:',myUrl.port);
+// console.log('Pathname:',myUrl.pathname);
+// console.log('Search:',myUrl.search);
+// console.log('SearchParams:',myUrl.searchParams);
+// console.log('Hash:',myUrl.hash);
